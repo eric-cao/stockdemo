@@ -4,7 +4,7 @@ for testing the end-to-end from angular to python call
 1 stock-front
   AngularJS front-end to display stock chart
   To run:
-  npm start
+    npm start
   
 2 Stockbackend
   Django rest framework to get the stock data from MySql database
@@ -34,15 +34,15 @@ for testing the end-to-end from angular to python call
   
   To run
   
-  cd stockbackend
-  virtualenv env
-  source env/bin/activate
-  python -m pip install django
-  pip install djangorestframework
-  pip install -U wheel
-  pip install django-cors-headers
-  pip install django mysqlclient
-  python manage.py runserver
+    cd stockbackend
+    virtualenv env
+    source env/bin/activate
+    python -m pip install django
+    pip install djangorestframework
+    pip install -U wheel
+    pip install django-cors-headers
+    pip install django mysqlclient
+    python manage.py runserver
   
 3 Pystock
 
