@@ -1,6 +1,8 @@
 # stockdemo
 for testing the end-to-end from angular to python call
 
+![alt text](https://raw.githubusercontent.com/eric-cao/stockdemo/master/screen.png)
+
 ## 1 stock-front
   AngularJS front-end to display stock chart
   To run:
