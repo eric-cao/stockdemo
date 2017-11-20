@@ -18,19 +18,19 @@ for testing the end-to-end from angular to python call
   
   update the file in stockbackend/stockbackend/settings.py
   
-  DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'stocks',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': '/Applications/MAMP/tmp/mysql/mysql.sock',
-        'PORT': '',
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    DATABASES = {
+      'default': {
+          'ENGINE': 'django.db.backends.mysql',
+          'NAME': 'stocks',
+          'USER': 'root',
+          'PASSWORD': 'root',
+          'HOST': '/Applications/MAMP/tmp/mysql/mysql.sock',
+          'PORT': '',
+          # 'ENGINE': 'django.db.backends.sqlite3',
+          # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+      }
 
-  }
+    }
   
   To run
   
@@ -44,7 +44,8 @@ for testing the end-to-end from angular to python call
   pip install django mysqlclient
   python manage.py runserver
   
-3. pystock
+3 Pystock
+
   A python file to retrieve the stock information based on date range. May schedule as cron job to pull the data in daily base
   
   
